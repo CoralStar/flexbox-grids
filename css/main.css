@@ -15,7 +15,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
     height: 100%;
-
 }
 
 /*
@@ -104,11 +103,33 @@ html {
   height: 100%;
 }
 
+header {
+  font-size: 3em;
+  color: #fff;
+  background-color: #181818;
+}
+
+main {
+  font-size: 1.8em;
+  color: #fff;
+  background-color: #181818;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+ul {
+  background-color: #181818;
+  width: 15%;
+  color: #181818;
+  display:inline flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .wrapper {
@@ -119,18 +140,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.4em;
   background-color: #181818;
   height: 300px;
   width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
